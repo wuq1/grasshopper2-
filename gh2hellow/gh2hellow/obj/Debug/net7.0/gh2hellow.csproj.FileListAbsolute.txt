@@ -1,0 +1,16 @@
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.csproj.AssemblyReference.cache
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.AssemblyInfoInputs.cache
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.AssemblyInfo.cs
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.csproj.CoreCompileInputs.cache
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\bin\Debug\net7.0\gh2hellow.deps.json
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\bin\Debug\net7.0\gh2hellow.runtimeconfig.json
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\bin\Debug\net7.0\gh2hellow.rhp
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\bin\Debug\net7.0\gh2hellow.pdb
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.rhp
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\refint\gh2hellow.rhp
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.pdb
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.genruntimeconfig.cache
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\ref\gh2hellow.rhp
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\bin\Debug\net7.0\MIConvexHull.dll
+C:\Users\32035\Desktop\c\gh2hellow\gh2hellow\obj\Debug\net7.0\gh2hellow.csproj.Up2Date

@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "IHmtIvUzM0k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\32035\\Desktop\\c\\gh2hellow\\gh2hellow\\gh2hellow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\32035\\.nuget\\packages\\grasshopper2\\2.0.9225-wip.14825\\grasshopper2.2.0.9225-wip.14825.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\rhinocommon\\8.11.24254.15001\\rhinocommon.8.11.24254.15001.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\32035\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "获取包漏洞数据时出错: 无法加载源 https://api.nuget.org/v3/index.json 的服务索引。"
+    }
+  ]
+}
