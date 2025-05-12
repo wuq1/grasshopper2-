@@ -1,0 +1,87 @@
+protected override void AddInputs(InputAdder inputs)
+{
+    Random ean = new Random();
+    inputs.AddInteger("input1", "n", "input1").Set(10);
+    inputs.AddInteger("input2", "seed", "input2").Set(ean.Next());
+    inputs.AddInteger("input3", "hight", "input3").Set(1);
+    inputs.AddInterval("input4", "control", "input4").Set(new Interval(0.2,0.8));
+
+
+
+}
+
+/// <summary>
+/// Registers all the output parameters for this component.
+/// </summary>
+protected override void AddOutputs(OutputAdder outputs)
+{
+    outputs.AddCurve("output", "cir", "output");
+    outputs.AddLine("output", "line", "output",Grasshopper2.Parameters.Access.Twig);
+
+}
+
+/// <summary>
+/// This is the method that actually does the work.
+/// </summary>
+/// <param name="access">The IDataAccess object can be used to retrieve data from input parameters and 
+/// to store data in output parameters.</param>
+protected override void Process(IDataAccess access)
+{
+    
+    access.GetItem<int>(0, out int count);
+    access.GetItem<int>(1, out int seed);
+    access.GetItem<int>(2, out int mul);
+    access.GetItem<Interval>(3, out Interval va);
+
+
+
+
+
+
+
+    //
+    var c = new Circle(count).ToNurbsCurve();
+    var ds = c.DivideByCount(10,true,out var pts);
+    var pts1 = new Point3d[pts.Length];
+    var pts2 = new Point3d[pts.Length];
+
+    var ls1 = new Line[pts.Length];
+
+    Random ran = new Random(seed);
+    //
+    for(int i=0;i<ds.Length;i++)
+    {
+        Transform tan = Transform.Scale(new Point3d(0, 0, 0), ran.NextDouble(va.T0, va.T1));
+        Transform tan1 = Transform.Translation(new Vector3d(0,0, ran.NextDouble(0.2,0.8) * mul));
+
+        pts[i].Transform(tan);
+        pts[i].Transform(tan1);
+
+        pts1[i] = pts[i];
+
+        double tn = 0;
+        c.ClosestPoint(pts1[i],out  tn);
+        pts2[i] = c.PointAt(tn);
+        ls1[i] = new Line(pts1[i], pts2[i]);
+
+    }
+
+
+
+
+
+
+    //
+    access.SetItem(0, c);
+    access.SetTwig(1, ls1);
+}
+public double[] SomeRandom(int t)
+{
+    Random ran = new Random();
+    var ds = new double[t];
+    for (int i = 0; i < t; i++)
+    {
+        ds[i] = ran.NextDouble();
+    }
+    return ds;
+}
